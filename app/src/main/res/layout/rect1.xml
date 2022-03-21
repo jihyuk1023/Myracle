@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:backgroundTint="@android:color/holo_green_light">
+
+    <CheckBox
+        android:id="@+id/rect1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_margin="1dp"
+        android:button="@null"
+        android:background="@drawable/green1"
+        android:enabled="false"
+        android:minWidth="0dp"
+        android:minHeight="0dp" />
+
+</FrameLayout>

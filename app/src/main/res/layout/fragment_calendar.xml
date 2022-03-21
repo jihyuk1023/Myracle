@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/show_record_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"/>
+
+    <LinearLayout
+        android:layout_below="@+id/show_record_text"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/day_of_week"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginBottom="1dp"
+            android:gravity="center"
+            android:id="@+id/SUN"
+            android:text="S"
+            android:textSize="12dp"
+            android:textColor="#8A8F95"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:id="@+id/MON"
+            android:text="M"
+            android:textSize="12dp"
+            android:textColor="#8A8F95"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:id="@+id/TUE"
+            android:text="T"
+            android:textSize="12dp"
+            android:textColor="#8A8F95"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:id="@+id/WED"
+            android:text="W"
+            android:textSize="12dp"
+            android:textColor="#8A8F95"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:id="@+id/THU"
+            android:text="T"
+            android:textSize="12dp"
+            android:textColor="#8A8F95"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:id="@+id/FRI"
+            android:text="F"
+            android:textSize="12dp"
+            android:textColor="#8A8F95"/>
+
+        <TextView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="1dp"
+            android:gravity="center"
+            android:id="@+id/SAT"
+            android:text="S"
+            android:textSize="12dp"
+            android:textColor="#8A8F95"/>
+    </LinearLayout>
+
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/show_record_text"
+        android:layout_toRightOf="@+id/day_of_week">
+
+        <RelativeLayout
+            android:id="@+id/calender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TableLayout
+                android:id="@+id/tableLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"></TableLayout>
+
+
+        </RelativeLayout>
+
+    </HorizontalScrollView>
+
+<!--    <Button-->
+<!--        android:id="@+id/reset"-->
+<!--        android:layout_below="@+id/day_of_week"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="DB 기록 초기화"/>-->
+</RelativeLayout>

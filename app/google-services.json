@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "432384302553",
+    "project_id": "myracle-f9101",
+    "storage_bucket": "myracle-f9101.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432384302553:android:de50db17f252bd51634dc8",
+        "android_client_info": {
+          "package_name": "com.armdri.myracle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "432384302553-ig7bsohqo6if97r8o2h9h9ft7b3ltncf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr9YdTtd_qwVDfJ08142z1vVAYfi3sFzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "432384302553-ig7bsohqo6if97r8o2h9h9ft7b3ltncf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
